@@ -199,6 +199,16 @@ a:hover {
   pointer-events: none;
 }
 
+.hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
 .hero-content {
   position: relative;
   z-index: 2;
